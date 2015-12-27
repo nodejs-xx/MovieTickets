@@ -1,7 +1,7 @@
 var express = require('express');
 var mongoose = require('mongoose');
 var moment = require('moment');
-var dbConnectionString = 'mongodb://lcy:lcy@localhost/tickets';
+var dbConnectionString = 'mongodb://localhost/tickets';
 mongoose.connect(dbConnectionString);
 
 var port = process.env.PORT || 3030;
